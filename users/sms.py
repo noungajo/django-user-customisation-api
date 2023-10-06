@@ -1,6 +1,6 @@
 import requests
 import json
-AUTH_TOKEN = "Basic cWVqSW1BRDRndTFlbzh1anBFZ3RnQ2FpMVpkV0VReWo6YVZjU3ZwRWxlSHpmdEFhSw=="
+AUTH_TOKEN = #basic token
 def sendsms(receiver_phone,message):
     url = 'https://api.orange.com/oauth/v3/token'
     headers = {
@@ -15,8 +15,6 @@ def sendsms(receiver_phone,message):
     
     auth = resp.json()['token_type'] + " " + resp.json()['access_token']
     sender_phone = "2370000"
-   # receiver_phone = "237656964128"  # il faut mettre le numéro ici.
-   # message = "Hello Durango, j'espère que tu vas bien!!!"
     url = f'https://api.orange.com/smsmessaging/v1/outbound/tel%3A%2B{sender_phone}/requests'
     headers = {
         "Content-Type": "application/json",
