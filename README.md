@@ -21,6 +21,7 @@ Avec ce projet, il est possible de :
 ## Environnement de developpement
 - python 3.8
 - Ubuntu 20.04
+- MySQL Database
 - VS Code
 
 ## Requirement

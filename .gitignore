@@ -45,3 +45,4 @@ local_settings.py
 .venv
 venv/
 ENV/
+static/
