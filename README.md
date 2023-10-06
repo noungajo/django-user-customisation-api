@@ -1,4 +1,4 @@
-# User management
+# Django usercustomisation api
 ## Description
 
 cette application permet la gestion de l'utilisateur base sur le module utilisateur fourni par django. Et l'ajout de champs supplementaires telque une image et bien d'autre si besoin. Nous avons creer une classe abstraite AbstractUser qui herite de AbstractBaseUser fourni par django.contrib.auth.models.
@@ -99,3 +99,8 @@ pip install -r < requirements
 ```shell
 python manage.py runserver
 ```
+## Contribution 
+Nous accueillons les contributions de la communauté. Si vous souhaitez contribuer à ce projet, veuillez suivre les directives de la contribution dans le fichier CONTRIBUTING.md
+
+## Licence
+C projet est distribué sous la licence
