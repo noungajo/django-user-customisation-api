@@ -93,11 +93,11 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'dotche_bd',
-        'USER':'root',
-        'PASSWORD':'toto123456',
-        'HOST':'localhost',
-        'PORT':'3306',
+        'NAME':'name_of_database',
+        'USER':'username',
+        'PASSWORD':'password',
+        'HOST':'hostaname',
+        'PORT':'port',
     }
 }
 
