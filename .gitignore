@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+__init__.pyc
+__init__.pyo
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Logs
+*.log
+
+# Media files
+media/
+
+# Compiled Python files
+*.pyc
+
+# Caches
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Local development settings
+local_settings.py
+
+# Secret key
+*.secret
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+venv/
+ENV/
