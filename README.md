@@ -104,4 +104,4 @@ python manage.py runserver
 Nous accueillons les contributions de la communauté. Si vous souhaitez contribuer à ce projet, veuillez suivre les directives de la contribution dans le fichier CONTRIBUTING.md
 
 ## Licence
-C projet est distribué sous la licence
+Ce projet est distribué sous la licence
